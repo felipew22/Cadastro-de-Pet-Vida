@@ -11,7 +11,7 @@ public class InciarDB {
                 conexao.close();
             }
         } catch (Exception e) {
-            System.out.println("Erro ao conectar: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 }
